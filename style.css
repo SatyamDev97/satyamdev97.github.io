@@ -1,0 +1,35 @@
+body{
+	display: flex;
+	flex-direction: column;
+	flex: none;
+
+	background-image: url(https://petapixel.com/assets/uploads/2016/03/djiphantom4head.jpg);
+/*	margin-bottom: 500px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	align-items: center;
+
+
+}
+.header{
+	color: white;
+	margin-top: 100px;
+	font-size: 2rem;
+/*	margin-bottom: 600px;*/
+	font-family: 'Poiret One', cursive;
+/*	align-self: center;*/
+	border-bottom: 2px solid rgb(253,100,60);
+	text-align: center;
+
+}
+.btn-secondary{
+	margin-top: 600px
+}
+
+.btn-secondary:hover{
+	background-color: rgb(253,100,60);
+	border-color: rgb(253,100,60);
+
+}
+
